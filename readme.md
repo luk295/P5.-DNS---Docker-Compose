@@ -12,10 +12,7 @@ services:
       - 54:53/tcp
       - 127.0.0.1:953:953/tcp
     volumes:
-      - ./named.conf:/etc/bind
-      - ./named.conf.options:/var/cache/bind
-      - /var/lib/bind
-      - /var/log
+      - ./configuracionOpciones:/etc/bind
     networks:
       - frontend
 networks:
