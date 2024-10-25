@@ -1,0 +1,16 @@
+
+services:
+  bind:
+    image: internetsystemsconsortium/bind9:9.18
+    container_name: bind_imagen
+    ports:
+      - 54:53/udp
+      - 54:53/tcp
+      - 127.0.0.1:953:953/tcp
+    #volumes:
+    #  - ./configuracionOpciones:/etc/bind
+    networks:
+      - frontend
+networks:
+  frontend:
+    driver: bridge
