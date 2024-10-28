@@ -132,7 +132,7 @@ Ahí vese a rede creada, a ip e os contenedores que están conectados á rede. N
 Fago `dig 172.21.0.2`, que é a IP do servidor. 
 
 >[!NOTA]
->Ao principio ó facer ping atopábame o servidor pero non respondía nada xa que tiña as opción do exemplo no arquivo name.conf onde dicía que non respondera a nada.
+>Ao principio ó facer ping atopábame o servidor pero non respondía nada xa que tiña as opción do exemplo > >no arquivo name.conf onde dicía que non respondera a nada.
 
 ```
 
